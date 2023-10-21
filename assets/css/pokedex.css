@@ -10,12 +10,12 @@
     background-color: #a6a877;
 }
 
-.grass {
+.grass{
     background-color: #77c850;
 }
 
 .fire {
-    background-color: #ee7f30;
+    background-color: #e42705;
 }
 
 .water {
@@ -127,6 +127,14 @@
     height: 70px;
 }
 
+.logo-pokeball img{
+    text-align: center;
+    max-width: 100%;
+    height: 70px;
+}
+
+
+
 .pagination {
     display: flex;
     flex-direction: row;
@@ -145,6 +153,7 @@
     border: none;
     border-radius: 1rem;
 }
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
